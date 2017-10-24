@@ -65,7 +65,7 @@ public class Code {
                     String lastName = rset.getString("lastName");
                     String email = rset.getString("email");
                     String pass = rset.getString("pass");
-                    out.println(id + ",  '" + firstName +", '" +lastName+ ", '" +email + ", '" +pass+ "<br>");
+                    out.println(id + ",  '" + firstName +", '" +lastName+ ", '" +email+ ", '" +pass+ "<br>");
                     ++rowCount;
                  }  // end while
                  out.println("Total number of records = " + rowCount);
@@ -79,10 +79,10 @@ public class Code {
    }
    
    
-   public void addStudent(String id, String firstName, String lastName, String email, String pass, PrintWriter out){
+   public void addStudent(String id, String firstName, String lastName,String email , String pass, PrintWriter out){
        this.Connect(out);
         //name = name;
-        String strSelect2 = ("insert into useraccount(firstName, lastName, email) values('"+firstName+"' , '"+lastName+"' ,'"+email+"');");
+        String strSelect2 = ("insert into useraccount(firstName, lastName,email , pass) values('"+firstName+"' , '"+lastName+"' ,'"+email+"' ,'"+pass+"')");
         
         System.out.println("The SQL query is: " + strSelect2);
         out. println("The SQL query is: " + strSelect2);

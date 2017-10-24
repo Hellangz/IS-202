@@ -16,15 +16,9 @@
             <properties/>
             <folders>
                 <source-folder>
-                    <label>html</label>
-                    <type>doc_root</type>
-                    <location>src/html</location>
+                    <label>listdemo</label>
+                    <location>.</location>
                     <encoding>UTF-8</encoding>
-                </source-folder>
-                <source-folder>
-                    <label>conf</label>
-                    <type>web_inf</type>
-                    <location>src/conf</location>
                 </source-folder>
                 <source-folder>
                     <label>Java source</label>
@@ -33,9 +27,14 @@
                     <encoding>UTF-8</encoding>
                 </source-folder>
                 <source-folder>
-                    <label>listdemo</label>
-                    <location>.</location>
-                    <encoding>UTF-8</encoding>
+                    <label>html</label>
+                    <type>doc_root</type>
+                    <location>src/html</location>
+                </source-folder>
+                <source-folder>
+                    <label>conf</label>
+                    <type>web_inf</type>
+                    <location>src/conf</location>
                 </source-folder>
             </folders>
             <ide-actions>
@@ -92,7 +91,7 @@
         <java-data xmlns="http://www.netbeans.org/ns/freeform-project-java/4">
             <compilation-unit>
                 <package-root>src/java</package-root>
-                <classpath mode="compile">C:\is202sw\apache-tomee-plume-7.0.3\lib\javaee-api-7.0-1.jar;C:\is202sw\apache-tomee-plume-7.0.3\lib\servlet-api.jar</classpath>
+                <classpath mode="compile">/is202sw/apache-tomee-plume-7.0.3/lib/javaee-api-7.0-1.jar:/is202sw/apache-tomee-plume-7.0.3/lib/servlet-api.jar</classpath>
                 <source-level>1.8</source-level>
             </compilation-unit>
         </java-data>

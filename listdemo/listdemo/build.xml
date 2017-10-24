@@ -110,7 +110,7 @@ WEB-INF/
   </target>
 
 
-  <property name="browser" value="C:\Program Files (x86)\Google\Chrome\Application\chrome.exe"/>
+  <property name="browser" value="/Applications/Google Chrome.app/Contents/MacOS/Google Chrome"/>
   <property name="starturl" value="slit/index.html"/>
 
   <target name="run" depends="deploy"
